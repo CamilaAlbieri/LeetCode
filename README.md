@@ -6,15 +6,6 @@ Este repositório contém soluções de problemas do [LeetCode](https://leetcode
 
 ## 📁 Estrutura do Repositório
 
-├── easy/
-│ ├── two_sum.cpp
-│ └── ...
-├── medium/
-│ └── ...
-├── hard/
-│ └── ...
-└── README.md
-
 - Os arquivos estão organizados por nível de dificuldade: `easy`, `medium` e `hard`.
 - Cada arquivo `.cpp` contém uma solução individual e comentada.
 
