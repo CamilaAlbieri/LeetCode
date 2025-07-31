@@ -1,4 +1,3 @@
-# LeetCode
 # LeetCode em C++
 
 Este repositório contém soluções de problemas do [LeetCode](https://leetcode.com/) implementadas em **C++**. O objetivo é praticar algoritmos, estruturas de dados e melhorar a lógica de programação.
