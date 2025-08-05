@@ -39,6 +39,36 @@ public:
     }
 };
 
+/* CÓDIGO MODERNO
+class Solution {
+public:
+    int numOfUnplacedFruits(vector<int>& fruits, vector<int>& baskets) {
+        int count = 0;
+        int n = baskets.size();
+        for (auto fruit : fruits) {
+            int unset = 1;
+            for (int i = 0; i < n; i++) {
+                if (fruit <= baskets[i]) {
+                    baskets[i] = 0;
+                    unset = 0;
+                    break;
+                }
+            }
+            count += unset;
+        }
+        return count;
+    }
+};
+
+O que é legal nesse código?
+Usa um loop mais moderno com for (auto fruit : fruits) → mais limpo.
+
+Modifica o vetor baskets diretamente: marcando cestos usados como 0.
+
+Simples, direto, e resolve o problema de forma correta.
+*/
+
+
 
 int main() {
     while(true){
